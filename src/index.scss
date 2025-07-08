@@ -1,13 +1,5 @@
-// Глобальные переменные
-:root {
-  --primary-color: #3182ce;
-  --danger-color: #e53e3e;
-  --border-color: #e2e8f0;
-  --text-color: #2d3748;
-  --text-muted: #718096;
-}
+@import './assets/styles/variables.css';
 
-// Сброс стилей
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +7,14 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.5;
-  color: var(--text-color);
-  background-color: #f7fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--white);
+  color: var(--text);
+  line-height: 1.6;
+  padding: var(--space-xl);
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
 }

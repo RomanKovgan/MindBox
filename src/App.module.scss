@@ -1,0 +1,14 @@
+.app {
+  background-color: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.title {
+  background: var(--primary);
+  color: var(--text-light);
+  padding: var(--space-lg);
+  text-align: center;
+  margin: 0;
+}
