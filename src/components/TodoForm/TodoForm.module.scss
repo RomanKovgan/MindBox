@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  padding: var(--space-md);
+  border-bottom: var(--border);
+}
+
+.input {
+  flex: 1;
+  padding: var(--space-sm) var(--space-md);
+  border: var(--border);
+  border-radius: var(--radius-sm);
+  margin-right: var(--space-sm);
+}
+
+.button {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm) var(--space-md);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--primary-hover);
+}

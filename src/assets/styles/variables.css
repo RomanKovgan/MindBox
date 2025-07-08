@@ -1,0 +1,28 @@
+:root {
+  /* Цвета */
+  --primary: #6f8441;
+  --primary-hover: #5a6d34;
+  --danger: #c31f1f;
+  --danger-hover: #a11919;
+  --text: #3f3f3f;
+  --text-light: #f3ffec;
+  --white: #ffffff;
+  --gray: #d9d9d9;
+  --completed: #95a5a6;
+  
+  /* Отступы */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  
+  /* Тени */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  /* Границы */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --border: 1px solid var(--gray);
+}

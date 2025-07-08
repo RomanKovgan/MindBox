@@ -1,0 +1,48 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md);
+  background-color: var(--white);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.count {
+  min-width: 100px;
+}
+
+.filters {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.filter {
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  padding: var(--space-xs) var(--space-sm);
+}
+
+.filter:hover {
+  color: var(--primary);
+}
+
+.filter.active {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.clearButton {
+  background: none;
+  border: none;
+  color: var(--danger);
+  cursor: pointer;
+  min-width: 100px;
+  text-align: right;
+}
+
+.clearButton:hover {
+  color: var(--danger-hover);
+}
