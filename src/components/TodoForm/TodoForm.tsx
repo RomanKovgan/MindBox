@@ -15,7 +15,11 @@ export default function TodoForm({ onAdd }: Props) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className={styles.form}>
+    <form
+      onSubmit={handleSubmit}
+      className={styles.form}
+      data-testid="todo-form"
+    >
       <input
         type="text"
         value={input}
