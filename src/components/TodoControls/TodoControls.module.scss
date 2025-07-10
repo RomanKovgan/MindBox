@@ -6,6 +6,7 @@
   background-color: var(--white);
   color: var(--text);
   font-size: 0.9rem;
+  margin-top: auto;
 }
 
 .count {
@@ -32,6 +33,8 @@
 .filter.active {
   color: var(--primary);
   font-weight: bold;
+  border: 1px solid var(--gray);
+  border-radius: var(--space-sm) ;
 }
 
 .clearButton {
