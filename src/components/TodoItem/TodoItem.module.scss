@@ -14,9 +14,22 @@
 }
 
 .checkbox {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
   margin-right: var(--space-md);
   cursor: pointer;
+  transition: 0.15s ease-in-out;
+
+  &:checked  {
+    background: url("../../assets/icons/markIcon.svg") no-repeat center;
+    background-size: 20px 20px;
+  }
 }
+
+
 
 .text {
   flex-grow: 1;

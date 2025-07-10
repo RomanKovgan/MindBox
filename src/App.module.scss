@@ -1,8 +1,15 @@
 .app {
+  display: flex;
+  flex-direction: column;
   background-color: var(--white);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
   overflow: hidden;
+  height: 100dvh;
+  .content {
+    flex: 1;
+    padding-bottom: var(--space-xl);
+  }
 }
 
 .title {

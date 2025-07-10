@@ -21,15 +21,15 @@ function App() {
   return (
     <div className={styles.app}>
       <h1 className={styles.title}>Todo App</h1>
+      <section className={styles.content}>
+        <TodoForm onAdd={addTodo} />
 
-      <TodoForm onAdd={addTodo} />
-
-      <TodoList
-        todos={filteredTodos}
-        onToggle={toggleTodo}
-        onDelete={deleteTodo}
-      />
-
+        <TodoList
+          todos={filteredTodos}
+          onToggle={toggleTodo}
+          onDelete={deleteTodo}
+        />
+      </section>
       <TodoControls
         activeFilter={filter}
         todosCount={todos.filter((todo) => !todo.completed).length}
